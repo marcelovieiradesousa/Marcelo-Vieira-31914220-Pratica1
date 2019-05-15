@@ -39,41 +39,50 @@ header{
     color: #808080;
 }
 .form{
-    position: fixed;
-    margin-top: 50px;
-    margin-left: 495px;
-    padding: 10px;
-    width: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+    left: 34%;
+    right: 2%;
+    margin: auto;
+    width: 70%;
     height: 22px;
 }
 .form input{
-    padding: 0;
+    
+    padding: 0px 15px;
+    margin: 0px 0;
     height: 26px;
-    width: 360px;
+    width: 33.5%;
 }
 .form input::-webkit-input-placeholder{
-    padding: 14px;
     width: 12px;
     color: #808080;
 }
+
 .form button{
     margin-left: -5px;
     padding: 0;
     height: 30px;
-    width: 79px;
+    min-width: 16%;
+    max-width: 18%;
     background-color: black;
     color: #e0e0e0;
     border-color: black;    
 }
 .barra .logos {
-    position: relative;
-    margin-right: 0px;
+    position: absolute;
+    top: 0%;
+    bottom: 55%;
+    left: 2%;
+    right: 0%;
+    margin: auto;
     width: 310px;
     height: 0px;
 }
 .barra .logos img{
-    margin-bottom: -135px; 
-    padding: 2px;
+    margin-bottom: -145px; 
+    justify-content: space-around;
     width: 70px;
     height: 40px;
 }

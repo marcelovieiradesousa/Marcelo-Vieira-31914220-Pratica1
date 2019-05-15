@@ -45,13 +45,13 @@ header{
     width: 500px;
 }
 .form input{
-    margin: 0 auto;
-    padding: 0;
-    height: 84%;
-    width: 360px;
+    /* PMargun e padding para dizer onde vai o ponteiro */
+    padding: 0px 15px;
+    margin: 0px 0;
+    height: 26px;
+    width: 410px;
 }
 .form input::-webkit-input-placeholder{
-    padding: 14px;
     width: 12px;
     color: #808080;
 }
