@@ -19,7 +19,7 @@ header{
 }
 
 .img{
-    display: inline-flex;
+    display: flex;
     position: relative;
     
     padding: 2px;
@@ -50,4 +50,15 @@ header{
     padding: 2px;   
     width: 50px;
     height: 40px;
+}
+@media(max-width:820px){
+    .barra .img {
+        float: left;
+        position: relative;
+    }
+}
+@media(max-width:485px){
+    .barra {
+        display: inline;
+    }
 }

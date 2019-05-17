@@ -35,3 +35,9 @@ img{
     text-decoration: none;
     color: #808080;
 }
+@media(max-width:580px){
+    .barra{
+        display: inline-block;
+        
+    }
+}
