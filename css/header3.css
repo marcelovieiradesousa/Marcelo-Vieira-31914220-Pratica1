@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     box-sizing: border-box;
@@ -18,21 +19,18 @@ header{
 .img{
     position: relative;
     padding: 2px;
-    width: 180px;
+    max-width: 180px;
     height: 40px;
 }
 .barra ul{
-    position: relative;
-    left: 5%;
-    padding: 5px;
-    margin: auto;
+    padding: 10px;
+    margin: 0px;
     display: inline-block;
-    width: 90%;
 }
 .barra ul li{
     display: inline-block;
     list-style-type: none;
-    padding: 15px;
+    padding: 5px 19px;
     width: 10%;
     justify-content: space-around;
 }
@@ -49,11 +47,11 @@ header{
     width: 40%;
 }
 .form input{
-    /* PMargun e padding para dizer onde vai o ponteiro */
+    /* Padding para dizer onde vai o ponteiro */
     padding: 0px 15px;
     margin: auto;
     height: 26px;
-    width: 70%;
+    width: 64%;
 }
 .form input::-webkit-input-placeholder{
     width: 12px;

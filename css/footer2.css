@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(243, 247, 252);
+}
+    .rodape{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: 17vh;
+    }
+    .rodape .lvl1{
+        
+        display: flex;
+        padding: 50px;
+    }
+    .rodape .lvl1 p, ul li, input::-webkit-input-placeholder{
+        color: rgb(56, 159, 255);
+    }
+    .rodape .lvl1 input{
+        display: inline-flex;
+        padding: 0px 15px;
+        height: 42px;
+        width: 150px;
+        background-color: rgb(243, 247, 252);
+        border: 1px solid rgb(145, 197, 245);
+    }
+    input::-webkit-input-placeholder{
+        /* Padding 0 aqui*/
+        padding: 0px;
+        width: 0px;
+    }
+    .rodape .lvl1 button{
+        box-sizing: content-box;
+        color: aliceblue;
+        background-color: rgb(56, 159, 255);
+        border-color: rgb(56, 159, 255);
+        margin: 10px;
+        height: 40px;
+        width: 150px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .rodape .lvl1 #sub{
+        display: inline;
+        font-weight: bold;
+    }
+    .rodape .lvl1 ul{
+        display: inline;
+        position: relative;;
+        margin: -10px;
+        left: 30%;
+
+    }
+    .rodape ul li{
+        height: 25px;
+        position: relative;
+        text-transform: uppercase;
+        list-style-type: none;
+        padding: 5%;
+        font-weight: bold;
+    }
+    
+    .rodape .lvl2{
+        display: flex;
+        box-shadow: 1px 1px 2px 1px rgb(56, 159, 255);
+        background-color: rgb(56, 159, 255);
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+    .rodape .lvl2 p{
+        color: aliceblue;
+        padding: 0px 15px;
+    }
+    .rodape .lvl2 .logos i{
+        width: 50px;
+        padding: 15px 0px;
+        color: white;
+    }
+
+@media(max-width:1520px){
+
+    .rodape .lvl1{
+        display: flex;
+    }
+    .rodape .lvl1 #l3, #l2, #l1{
+        position: relative;
+        margin: -10px;
+        left: 25%;
+        width: 15%;
+    }
+}
+@media(max-width:1339px){
+
+    .rodape .lvl1{
+        display: flex;
+    }
+    .rodape .lvl1 #l3, #l2, #l1{
+        position: relative;
+        margin: -10px;
+        left: 20%;
+        width: 15%;
+    }
+}
+@media(max-width:1225px){
+
+    .rodape .lvl1{
+        display: flex;
+    }
+    .rodape .lvl1 #l3, #l2, #l1{
+        display: inline;
+        justify-content: space-between;
+        position: relative;
+        margin: 10px;
+        left: 5%;
+        width: 15%;
+        padding: auto;
+    }
+}
+@media(max-width:1045px){
+
+    .rodape .lvl1{
+        display: flex;
+    }
+    .rodape .lvl1 #l3, #l2, #l1{
+        display: inline;
+        justify-content: space-between;
+        position: relative;
+        margin: 5px;
+        left: 1%;
+        width: 15%;
+        padding: auto;
+    }
+}
+@media(max-width:1012px){
+
+    .rodape .lvl1{
+        display: flex;
+    }
+    .rodape .lvl1 #l3, #l2, #l1{
+        display: inline;
+        justify-content: space-between;
+        position: relative;
+        margin: 2px;
+        left: 1%;
+        width: 15%;
+        padding: auto;
+    }
+}
+@media(max-width:1005px){
+    .rodape .lvl1{
+        display: inline;
+        padding: -90%;
+
+    }
+    .rodape .lvl1 ul li{
+        justify-content: none;
+        position: relative;
+        height: 0px;
+        /* Margin-top: Diminuie o espaçamento entre li */
+        margin-top: -7%;
+    }
+    
+}
