@@ -51,14 +51,9 @@ header{
     width: 50px;
     height: 40px;
 }
-@media(max-width:820px){
-    .barra .img {
-        float: left;
-        position: relative;
-    }
-}
-@media(max-width:485px){
+@media(max-width:720px){
     .barra {
-        display: inline;
+        position: relative;
+        flex-direction: column;
     }
 }

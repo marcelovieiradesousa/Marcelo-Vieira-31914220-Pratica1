@@ -26,9 +26,10 @@ header{
     height: 40px;
 }
 .barra ul{
-    box-sizing: border-box;
+    position: relative;
     padding: 5px;
-    margin: 0px;
+    bottom: 50px;
+    left: 155px;
     display: inline-block;
 }
 .barra ul li{
@@ -45,22 +46,20 @@ header{
     
 }
 .barra .form{
-    box-sizing: border-box;
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: 100px;
     bottom: 0%;
-    left: 34%;
-    right: 2%;
+    left: -70%;
+    right: 0px;
     margin: auto;
-    width: 70%;
-    height: 22px;
+    width: 500px;
+    height: 32px;
 }
 .barra .form input{
-    
     padding: 0px 15px;
     margin: 0px 0;
     height: 26px;
-    width: 33.5%;
+    width: 70%;
 }
 .barra .form input::-webkit-input-placeholder{
     width: 12px;
@@ -70,9 +69,9 @@ header{
 .barra .form button{
     margin-left: -5px;
     padding: 0;
-    height: 28px;
-    min-width: 16%;
-    max-width: 18%;
+    height: 30px;
+    min-width: 21%;
+    max-width: 25%;
     background-color: black;
     color: #e0e0e0;
     border-color: black;
@@ -92,4 +91,38 @@ header{
     justify-content: space-around;
     width: 70px;
     height: 40px;
+}
+@media(max-width: 896px){
+    .barra{
+        flex-direction: column;
+    }
+    .barra ul {
+        position: relative;
+        bottom: 110px;
+        left: -10px;
+    }
+    .barra .form{
+        position: relative;
+        left: 10px;
+        top: 0px;
+        width: 80%;
+    }
+    .barra .logos{
+        position: absolute;
+        top: 0%;
+        bottom: 40%;
+        left: 0%;
+        right: 2%;
+        margin: auto;
+    }
+}
+@media(max-width: 530px){
+    .barra .form{
+        position: relative;
+        left: -15px;
+        top: 0px;
+    }
+    .barra .form {
+        width: 95%;
+    }
 }
