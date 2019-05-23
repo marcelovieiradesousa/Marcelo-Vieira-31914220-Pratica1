@@ -39,7 +39,7 @@ form{
     max-width: 1420px;
     min-width: 520px;
     height: 22px;
-    padding: 12px;
+    padding: 12px 85px;
 }
 form input{
     padding: 0;
