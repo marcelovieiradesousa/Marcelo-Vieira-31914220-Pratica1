@@ -7,19 +7,22 @@ header{
     width: 100%;
     height: 17vh;
 }
+.top{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+}
 .barra{ 
     position: relative;
     background-color:white;
-    justify-content: space-between;
     box-shadow: 1px 1px 5px 5px #d1d1d1;
-    display: flex;
     padding: 17px;
     margin: auto;
     width: auto;
     height: 240px;
 }
-.img{
-    
+.top .img{
     position: relative;
     padding: 2px;
     width: 180px;
@@ -28,8 +31,7 @@ header{
 .barra ul{
     position: relative;
     padding: 5px;
-    bottom: 50px;
-    left: 155px;
+    bottom: 12px;
     display: inline-block;
 }
 .barra ul li{
@@ -45,28 +47,34 @@ header{
     color: #808080;
     
 }
-.barra .form{
+.bot{
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    height: 170px;
+}
+.barra .bot form{
     position: relative;
-    top: 100px;
+    top: 10px;
     bottom: 0%;
-    left: -100%;
+    left: 0%;
     right: 0px;
     margin: auto;
     width: 500px;
     height: 32px;
 }
-.barra .form input{
+.barra .bot form input{
     padding: 0px 15px;
     margin: 0px 0;
     height: 26px;
     width: 70%;
 }
-.barra .form input::-webkit-input-placeholder{
+.barra .bot form input::-webkit-input-placeholder{
     width: 12px;
     color: #808080;
 }
 
-.barra .form button{
+.barra .bot form button{
     margin-left: -5px;
     padding: 0;
     height: 30px;
@@ -76,53 +84,40 @@ header{
     color: #e0e0e0;
     border-color: black;
 }
-.barra .logos {
-    position: absolute;
-    top: 0%;
-    bottom: 55%;
+.barra .bot .logos {
+    position: relative;
+    top: 15%;
+    bottom: 0%;
     left: 0%;
-    right: 2%;
+    right: 0%;
     margin: auto;
     width: 310px;
     height: 0px;
 }
-.barra .logos img{
-    margin-bottom: -145px; 
-    justify-content: space-around;
-    width: 70px;
+.barra .bot .logos i{ 
+    width: 60px;
     height: 40px;
 }
 @media(max-width: 896px){
-    .barra{
-        flex-direction: column;
-    }
     .barra ul {
         position: relative;
-        bottom: 110px;
+        padding: 5px;
         left: -10px;
     }
-    .barra .form{
+    .barra .bot form{
         position: relative;
-        left: 10px;
-        top: 0px;
-        width: 80%;
+        width: 65%;
     }
     .barra .logos{
-        position: absolute;
-        top: 0%;
-        bottom: 40%;
-        left: 0%;
-        right: 2%;
-        margin: auto;
+        position: relative;
+        top: -120px;
+        bottom: 0px;
+        left: -10%;
+        right: 0%;
     }
 }
-@media(max-width: 530px){
-    .barra .form{
-        position: relative;
-        left: -15px;
-        top: 0px;
-    }
-    .barra .form {
-        width: 95%;
+@media(max-width: 730px){
+    .barra .bot form{
+        width: 85%;
     }
 }
