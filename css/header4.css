@@ -99,6 +99,9 @@ header{
     height: 40px;
 }
 @media(max-width: 896px){
+    .barra{
+        flex-direction: column;
+    }
     .barra ul {
         position: relative;
         padding: 5px;
@@ -117,7 +120,13 @@ header{
     }
 }
 @media(max-width: 730px){
+    .barra .top{
+        flex-direction: column;
+    }
     .barra .bot form{
         width: 85%;
+    }
+    .barra .bot form input{
+        width: 50%;
     }
 }
