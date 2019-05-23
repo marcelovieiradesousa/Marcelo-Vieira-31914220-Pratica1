@@ -40,24 +40,24 @@ header{
     text-decoration: none;
     color: #808080;
 }
-.form{
+form{
     position: relative;
     margin: auto;
     padding: 10px;
     width: 500px;
 }
-.form input{
+form input{
     /* Padding para dizer onde vai o ponteiro */
     padding: 0px 15px;
     margin: auto;
     height: 26px;
     width: 64%;
 }
-.form input::-webkit-input-placeholder{
+form input::-webkit-input-placeholder{
     width: 12px;
     color: #808080;
 }
-.form button{
+form button{
     margin-left: -5px;
     padding: 0;
     height: 30px;
@@ -70,9 +70,13 @@ header{
     .barra{
         flex-direction: column;
     }
-    .form{
+    form{
         position: relative;
         flex-direction: column;
         width: 90%;
+    }
+    form input{
+        width: 35%;
+
     }
 }
