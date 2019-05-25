@@ -34,7 +34,7 @@ form{
     bottom: 30px;
     top: 0;
     right: -57%;
-    left: 0%;
+    left: 20%;
     margin: auto;
     max-width: 1420px;
     min-width: 520px;
@@ -44,7 +44,7 @@ form{
 form input{
     padding: 0;
     height: 26px;
-    width: 35%;
+    width: 28%;
 }
 form input::-webkit-input-placeholder{
     padding: 14px;
@@ -55,7 +55,7 @@ form button{
     margin-left: -5px;
     padding: 0;
     height: 30px;
-    width: 78px;
+    width: 70px;
     background-color: black;
     color: #e0e0e0;
     border-color: black;    
@@ -77,4 +77,9 @@ form button{
     justify-content: space-around;
     width: 55px;
     height: 40px;
+}
+@media(max-width:490px){
+    form{
+        left: -20%;
+    }
 }
